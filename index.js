@@ -47,6 +47,8 @@ function tabPressed(e) {
 function mouseClicked() {
     document.body.classList.remove('focus-outline')
     window.removeEventListener('click', mouseClicked)
+    window.addEventListener('keydown', tabPressed)
+    document.activeElement.blur()
 }
 
 window.addEventListener('keydown', tabPressed)
