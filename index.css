@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 540px;
+    min-width: 400px;
+    margin: 0 auto;
+}
+.team-title {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+    
+}
+.score-screen {
+    color: #F94F6D;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    box-sizing: border-box;
+    padding-top: 16px;
+    border-radius: 5px;
+    border: #080001 solid 2px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.score-button-main {
+    width: 155px;
+    height: 45px;
+    margin-top: 10px;
+}
+button {
+    background-color: #1B244A;
+    border-radius: 5px;
+    border: solid #9AABD8 1px;
+}
+
+button:hover {
+    background-color: darkslategray;
+}
+
+button:active {
+    font-weight: bold;
+}
+
+button:focus {
+    outline:none;
+}
+
+.score-button {
+    color: #EEEEEE;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 45px;
+    height: 45px;
+    margin: 1px;
+}
+
+.newgame-button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 10px;
+}
+
+.winning {
+    border: green solid 2px;
+}
+
+.focus-outline button:focus {
+    outline: 3px solid blue;
+}
